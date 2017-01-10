@@ -1,0 +1,28 @@
+.detail_element-left_block {
+    float:left;
+    margin-right:50px;
+}
+
+.detail_element-right_block {
+    float:left;
+    overflow:hidden;
+    
+}
+
+.properties-list li span {
+    font-weight:bold;
+}
+
+.description {
+    font-weight:bold;
+    margin-top:25px;
+}
+
+.properties {
+    margin: 10px 0;
+    font-weight:bold;
+}
+
+#detail_element-tmpl_wrap h1 {
+    margin-bottom:25px;
+}

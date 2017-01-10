@@ -1,0 +1,404 @@
+.tour_description, .tournament_rules {
+    white-space: pre-line;
+}
+
+#activate_coupon-form {
+    margin-top:25px;
+}
+
+.korpus > div, .korpus > input 
+{ 
+    display: none; 
+}
+
+.korpus > label 
+{ 
+    padding: 5px; 
+    border: 1px solid #aaa; 
+    line-height: 28px; 
+    cursor: pointer; 
+    position: relative; 
+    bottom: 1px; 
+    background: #fff; 
+    display:unset;
+}
+.korpus input[type="radio"]:checked + label { 
+    background-color: #3a383c;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+
+.korpus > input:nth-of-type(1):checked ~ div:nth-of-type(1),
+.korpus > input:nth-of-type(2):checked ~ div:nth-of-type(2),
+.korpus > input:nth-of-type(3):checked ~ div:nth-of-type(3),
+.korpus > input:nth-of-type(4):checked ~ div:nth-of-type(4),
+.korpus > input:nth-of-type(5):checked ~ div:nth-of-type(5) { 
+    display: block; 
+    padding: 5px; 
+    /* border: 1px solid #aaa;  */
+}
+
+.detail_open_tour-wrap img {
+    width:150px;
+    height:150px;
+}
+
+.detail_open_tour-wrap td:first-child {
+    padding-right:25px;
+}
+
+.detail_open_tour-description h2 a {
+    text-decoration: underline;
+}
+
+.detail_open_tour-description h2 a:hover {
+    text-decoration: none;;
+}
+
+span.tour_status {
+    color:green !important;
+    font-style:italic;
+    font-size:17px;
+}
+
+.start_tournament-admin {
+    color: green;
+}
+
+.detail_open_tour-description span {
+    font-weight:bold;
+    color:#000;
+}
+
+.detail_open_tour-payment {
+    color: red;
+}
+
+.detail_open_tour-prize_fund {
+    color: green;
+}
+
+input[type="submit"], input[type="button"], button {
+    background-image: linear-gradient(to top, #777777, #444444);
+    border-radius: 5px;
+        -webkit-border-radius: 5px; 
+	-moz-border-radius: 5px;
+    border: none;
+    color: #fff;
+    padding: 8px 15px;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover, button:hover {
+    background-image: linear-gradient(to top, #777777, #aaaaaa);
+}
+
+#first_step-form .match_date {
+    margin-bottom:25px;
+}
+
+#first_step-form h3 {
+    margin-top:20px;
+}
+
+.step {
+    width:325px;
+}
+
+.forecast_submit {
+    margin-top:25px;
+}
+
+.tour_status-finished {
+    color:red !important;
+    font-style:italic;
+    font-size:17px;
+}
+
+.complete_forecasts-list li span {
+    font-weight:bold;
+}
+
+.korpus div.tournament_tab-content {
+    min-height:500px;
+}
+
+.pair {
+    //min-width:225px;
+    text-align:left;
+    margin-bottom:50px;
+    border: 1px solid #aaa;
+    position: relative;
+    -webkit-border-radius: 8px; 
+	-moz-border-radius: 8px; 
+	border-radius: 8px;
+    padding:0 10px;
+}
+
+.winner_line {
+    position:absolute;
+    right:0;
+    top:50%;
+    height:1px;
+    width:15px;
+    color:grey;
+}
+
+.pair p {
+    margin:0;
+    padding:5px 0;
+    //margin-left:10px;    
+}
+
+.grid-wrap tr:nth-child(2) td {
+    padding-top:20px;
+}
+
+.grid-wrap tr:nth-child(3) td {
+    padding-top:50px;
+}
+
+.pair .team_name {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 105px;
+}
+
+span.not_designed_bet, span.win_bet, span.lose_bet, span.wait_bet, span.total_coeff_start {
+    cursor: pointer;
+    position:relative;
+    width:25px;
+    height:25px;
+    display: inline-block;
+}
+
+.detail_info-forecast-wrap {
+    border: 1px solid #aaa;
+    display: none;
+    height: 110px;
+    left: -20px;
+    position: absolute;
+    top: -124px;
+    width: 250px;
+    cursor:default;
+    z-index: 2147483647;
+	background-color: #eee; 
+	-webkit-border-radius: 8px; 
+	-moz-border-radius: 8px; 
+	border-radius: 8px; 
+}
+
+.detail_info-forecast-wait_bet {
+    background-color: #eee;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+        -webkit-border-radius: 8px; 
+	-moz-border-radius: 8px;
+    cursor: default;
+    display: none;
+    left: -20px;
+    padding: 15px 0 15px 5px;
+    position: absolute;
+    top: -62px;
+    width: 168px;
+    z-index: 2147483647;
+}
+
+.detail_info-forecast-start_coeff {
+    background-color: #eee;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+        -webkit-border-radius: 8px; 
+	-moz-border-radius: 8px;
+    cursor: default;
+     display: none;
+    left: -18px;
+    padding: 15px 0 15px 5px;
+    position: absolute;
+    top: -63px;
+    color: #444;
+    width: 130px;
+    font-size: 13px;
+    z-index: 2147483647;
+    text-align:center;
+}
+
+.detail_info-forecast-match_name {
+    margin-top:9px !important;
+    font-weight:bold;
+}
+
+.detail_info-forecast-value{
+    font-weight:bold;
+}
+
+.triangle {	
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 8px solid #aaaaaa;
+    bottom: -9px;
+    height: 0;
+    left: 23px;
+    position: absolute;
+    width: 0;
+}
+
+.detail_info-forecast-prop{
+   width:245px;
+   margin:0 auto;
+   display:block;
+   text-align:center;
+   white-space:normal;
+}
+
+.not_designed_bet i:before, .win_bet i:before, .lose_bet i:before, .wait_bet i:before, .wait_bet-desc i:before, .not_designed-desc i:before , .win_bet-desc i:before, .lose_bet-desc i:before, .total_coeff_start i:before, .start_coeff-desc i:before, .champion_name i:before, .tournament_winner-name i:before{
+    content: "\f128";
+    font-style: normal;
+    font-weight: normal;
+    font-family: FontAwesome;
+    font-size: 25px;
+}
+
+.champion_name i:before {
+    content:"\f091";
+    color:gold;
+}
+
+.tournament_winner-name i:before {
+    content:"\f091";
+    color:gold;
+}
+
+.tournament_winner-name span {
+    margin:0 25px;
+}
+
+.not_designed_bet i:before {
+    content: "\f128";
+    //color: grey;
+    position: absolute;
+    top: 6px;
+    left: 4px;    
+}
+
+.win_bet i:before, .win_bet-desc i:before {
+    content: "\f00c";
+    color: green;
+}
+
+.lose_bet i:before, .lose_bet-desc i:before {
+    content:  "\f00d";
+    color:red;
+}
+
+.wait_bet i:before, .wait_bet-desc i:before {
+    content:  "\f017";
+    color: grey;
+}
+
+.total_coeff_start i:before, .start_coeff-desc i:before {
+    content:  "\f080";
+    color: grey;
+}
+
+.total_coeff_start {
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+    cursor:pointer;
+    margin-left:10px;
+}
+
+.tournament-prize {
+    position:relative;
+}
+
+.tournament-prize img {
+    position:absolute;
+    left:73px;
+}
+
+.tournament-prize .prize_money {
+    color: darkgreen;
+    font-size: 30px;
+    left: 268px;
+    position: absolute;
+    text-align: center;
+    top: 78px;
+}
+
+.tournament-prize  .tournament_winner-name {
+color: #08c;
+    font-size: 30px;
+    left: 180px;
+    position: absolute;
+    text-align: center;
+    top: 37px;
+    width: 300px;
+}
+
+.tournament-prize  .tournament_winner-name i:first-child {
+    margin-right:25px;
+}
+
+.tournament-prize  .tournament_winner-name i:nth-child(2) {
+    margin-left:25px;
+}
+
+.registered_users_list {
+    margin-top:25px;
+}
+
+.forecast-coeff {
+    font-weight:bold;
+}
+
+.grid-wrap tr:first-child {
+    background-color: #3a383c;
+    color:#fff;
+}
+
+.grid-wrap tr:first-child td {
+    padding:5px 0;
+    border-right:3px solid #fff;
+}
+
+.total_coeff-win {
+    color: green;
+}
+
+#tournament_grid-wrap {
+    //background-color: #eee;
+    //height: 100px;
+    overflow-x: scroll;
+    //padding: 50px;
+    white-space: nowrap;
+    width: 694px;
+}
+
+.grid-wrap {
+    display: inline-block;
+    vertical-align: top;
+//    width: 60px;
+//    height:60px;
+}
+
+.nobody_register, .tournament_rules, .close_bets_users {
+    margin-top:25px;
+}
+
+.close_bets_users {
+    color: red;
+}
+
+.step {
+    padding-left:50px !important;
+}
+
+.main_grid td:first-child {
+    padding-left:0px !important;
+}
+
+#main_content table#main_content-table .page-left, #main_content table#main_content-table .page-right {
+    padding: 0 !important;
+}

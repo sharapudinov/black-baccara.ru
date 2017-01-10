@@ -1,0 +1,32 @@
+
+Array
+(
+    [FIO] => Костя
+    [PHONE] => +7(152) 166-36-36
+    [EMAIL] => hitako@bk.ru
+    [COMMENT] => Тест
+    [CITY] => Москва
+    [IBLOCK_ID] => 9
+)
+
+error
+error
+Array
+(
+    [FIO] => test
+    [PHONE] => +7(252) 252-52-52
+    [EMAIL] => hitako@bk.ru
+    [COMMENT] => test
+    [CITY] => test
+    [IBLOCK_ID] => 9
+)
+
+Array
+(
+    [FIO] => test
+    [PHONE] => +7(252) 252-52-52
+    [EMAIL] => hitako@bk.ru
+    [COMMENT] => test
+    [CITY] => test
+    [IBLOCK_ID] => 9
+)

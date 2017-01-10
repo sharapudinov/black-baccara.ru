@@ -1,0 +1,111 @@
+.accordion li > .sub-menu {
+    display:none;
+}
+
+.sub-menu li a:hover {
+    background: #3c7c8b none repeat scroll 0 0;
+    color: #fff;
+}
+
+.accordion > li > a.active {
+    background: #2f636f  none repeat scroll 0 0 !important;
+    color: #fff;
+}
+
+.sub-menu {
+    background: #f2f2f2 none repeat scroll 0 0;
+}
+
+.sub-menu li a::first-letter {
+    text-transform: uppercase;
+}
+
+.sub-menu li a {
+    color: #3a9fa2;
+    display: block;
+    font-size: 13px;
+    line-height: 16px;
+    min-height: 18px;
+    padding: 2px 35px 2px 15px;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+.accordion a {
+    border: medium none;
+    margin: 0;
+    outline: medium none;
+}
+
+.sub-menu li {
+    padding: 4px 0;
+    position: relative;
+}
+
+.accordion li {
+    list-style: outside none none;
+}
+
+/* .accordion, .accordion ul, .accordion li, .accordion span {
+    border: medium none;
+    margin: 0;
+    outline: medium none;
+    padding-top: 0;
+} */
+
+.accordion li > a span.arrow {
+    background: rgba(0, 0, 0, 0) url("images/left_nav_sprite.png") repeat scroll -13px -161px;
+    bottom: 0;
+    display: block;
+    height: 13px;
+    margin: auto 0;
+    overflow: hidden;
+    position: absolute;
+    right: 7px;
+    top: 0;
+    width: 13px;
+}
+
+.sub-menu li.active > a {
+    background: #2f636f none repeat scroll 0 0;
+    color: #ffffff;
+}
+
+.accordion li > a.active span.arrow {
+    background: rgba(0, 0, 0, 0) url("images/left_nav_sprite.png") repeat scroll -26px -161px;
+}
+
+.accordion {
+    margin-bottom: 20px;
+}
+
+.accordion > li {
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+
+.accordion li {
+    list-style: outside none none;
+}
+
+.accordion > li > a {
+    background: #f2f2f2 none repeat scroll 0 0;
+    color: #3a9fa2;
+    display: inline-block;
+    font-size: 13px;
+    padding: 10px 25px 10px 45px;
+    position: relative;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 150px;
+}
+
+.accordion a {
+    border: medium none;
+    margin: 0;
+    outline: medium none;
+}
+
+.accordion>li>a:hover{
+  background-color: #3c7c8b;
+  color:#fff;
+}

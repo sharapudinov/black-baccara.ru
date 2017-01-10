@@ -1,0 +1,1582 @@
+@font-face {
+    font-family: "Etelkareg Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/etelkaregpro-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/etelkaregpro-webfont.woff") format("woff"), url("fonts/etelkaregpro-webfont.ttf") format("truetype"), url("fonts/etelkaregpro-webfont.svg#etelkaregregular") format("svg");
+}
+
+a {
+    color:#5488df;
+}
+
+body {
+    background: rgba(0, 0, 0, 0) url("images/fon.png") repeat-x scroll 0 0;
+    color: #757575;
+    font-family: Tahoma,sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+h1, h2 {
+    font-size: 32px;
+    color:#000;
+    line-height:1.5;
+    font-family: "Roboto",sans-serif;
+}
+
+h2 {
+    font-size:26px !important;
+}
+
+.right_part h1 {
+    margin-top:-12px;
+}
+
+.clear {
+    clear:both;
+}
+
+.telefon_ref:hover, .telefon_ref:focus {
+    text-decoration: none;
+}
+
+#header {
+    position: relative;
+}
+
+#foto24 {
+    background-image: url("images/24_1m.jpg");
+    z-index:999999999999999999999999;
+    width:395px; 
+    height:159px; 
+    position:absolute;
+    right:0; 
+    top:122px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#logo img {
+    display: block;
+    margin: 0 auto;
+}
+
+.claim_mobile {
+    margin-bottom:15px;
+}
+
+.tell_about_us {
+    text-align: center;
+    color: #0073a3;
+    font-weight: bold;
+}
+
+.social-wrap {
+    margin:15px auto; 
+    width:300px;
+}
+
+.complaints a.link img{
+    position: absolute; 
+    top: 11px; 
+    width: 18px; 
+    left:5px;
+}
+
+.complaints a.link {
+    font-size:11px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.partners_header {
+    font-size:15px !important;
+}
+
+#main_page .active {
+    background: #2f636f none repeat scroll 0 0 !important;
+    color: #fff;
+}
+
+#main_page .active > span {
+    background: rgba(0, 0, 0, 0) url("images/arrow_sprite.png") repeat scroll -26px -161px !important;
+}
+
+
+.best_flowers-open_text span, .advantages-open_text span {
+    bottom: 0;
+    display: block;
+    height: 13px;
+    margin: auto 0;
+    overflow: hidden;
+    position: absolute;
+    right: 7px;
+    top: 0;
+    width: 13px;
+    background: rgba(0, 0, 0, 0) url("images/arrow_sprite.png") repeat scroll -13px -161px;
+}
+
+.best_flowers-open_text:hover, .advantages-open_text:hover {
+    cursor:pointer;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+    text-align: center;
+    width: 100%;
+}
+
+.advantages-open_text {
+    margin-top:15px;
+}
+
+.under_head_text {
+    color: #0f3a51;
+    font-family: "Comic Sans MS";
+    font-size: 11px;
+    font-style: italic;
+    left: 89px;
+    position: absolute;
+    top: 141px
+}
+
+.head-text p {
+    //color: #757575;
+    color: #0f3a51;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 1.1;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.head-text-right {
+    text-align: right;
+}
+
+.additional_phones {
+    color: #757575;
+    font-size: 26px;
+    left: 110px;
+    line-height: 1.1;
+    position: absolute;
+    top: 30px;
+}
+
+#search {
+    //background: #dce9d9 none repeat scroll 0 0;
+    background: #3c7c8b none repeat scroll 0 0;
+    //float: right;
+    position:absolute;
+
+    font-family: Tahoma;
+    height: 50px;
+
+    right: 0;
+    width: 200px;
+}
+
+#search input[type="text"] {
+    border: 1px solid #a4bea1;
+    border-radius: 2px;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    color: #08242b;
+    font-size: 12px;
+    font-style: oblique;
+    margin-top: 10px;
+    width: 128px;
+    margin-left:20px;
+}
+
+#search input[type="submit"] {
+    background: rgba(0, 0, 0, 0) url("/bitrix/templates/main/images/search.png") no-repeat scroll center center;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 30px;
+    margin-right: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+    width: 30px;
+}
+
+nav {
+
+    margin-top: 23px;
+    position:relative;
+}
+
+.slider-control {
+    color: #a2a2a2;
+    font-size: 60px;
+    font-weight: 100;
+    height: 40px;
+    left: -30px;
+    line-height: 30px;
+    margin-top: -20px;
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    width: 40px;
+    cursor:pointer;
+}
+
+.slider-control.right_arrow {
+    left: auto;
+    right: -35px;
+}
+
+.bxslider-wrap {
+    position:relative;
+    margin-bottom:40px;
+    z-index:1;
+    margin-top:5px;
+}
+
+.accordion {
+    margin-bottom: 20px;
+}
+
+.accordion > li {
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+
+.accordion li {
+    list-style: outside none none;
+}
+
+.accordion > li > a {
+    background: #f2f2f2 none repeat scroll 0 0;
+    color: #3a9fa2;
+    display: inline-block;
+    font-size: 13px;
+    padding: 10px 25px;
+    position: relative;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 150px;
+}
+
+.accordion a {
+    border: medium none;
+    margin: 0;
+    outline: medium none;
+}
+
+.accordion>li>a:hover{
+  background: #3c7c8b;
+  color:#fff
+}
+
+.left_part {
+    margin-left:0;
+    max-width:200px;
+    float:left;
+}
+
+.right_part {
+    float: left;
+    margin-left: 25px;
+    max-width: 650px;
+    overflow: hidden;
+    text-align: left;
+}
+
+#content {
+//    margin-top:50px;
+}
+
+footer {
+    background-color: #f2f2f2;    
+    font-family: Tahoma;
+    margin-top: 30px;
+    border-bottom: 1px solid #d6d6d6;
+    border-top: 1px solid #d6d6d6;
+    height:240px;
+}
+
+#top_footer {
+    position:relative;
+    background-color: #f2f2f2;
+}
+
+ #top_footer  > .baccara-address, #top_footer  > .footer-sitemap, #top_footer{    
+     height: 240px;
+}
+
+#bottom_footer {
+    background-color: #fff;
+    width:100%;
+}
+
+.footer-sitemap {
+    //overflow:hidden;
+    border-left: 1px solid #d6d6d6;    
+    //float:right;
+    position:absolute;
+    right:0;
+    padding-left: 10px;
+    line-height:1.7;
+}
+
+.footer-sitemap ul {
+    margin-top: 10px;
+}
+
+.baccara-address {
+/*     float:left;
+    width: 500px; */
+    position:absolute;
+    left:0;
+}
+
+.baccara-address p {
+    margin-top:10px;
+}
+
+#after_footer {
+    margin-top:15px;
+}
+
+#contacts {
+    font-family: Arial, sans-serif;
+    margin-top:40px;
+    color: #000;
+}
+
+#pricelist {
+    color: #000;
+    margin-top:20px;
+    font-family: "Roboto",sans-serif;        
+}
+
+#pricelist p {
+    font-size:15px;
+    line-height:1.5;
+}
+
+#vacancies, #main_page, #conditions, #about_company, #special_offers  {
+    color: #000;
+    margin-top:20px;
+    font-family: "Roboto",sans-serif;
+}
+
+#main_page h1, #main_page h2, #conditions h2 {
+    margin: 10px 0;
+}
+
+#main_page p {
+    line-height:1.5;
+}
+
+.open_vacancies-text {
+    margin:20px 0;
+    font-weight:bold;
+}
+
+.open_vacancy-name {
+    padding-left:25px;
+}
+
+.animated2 {
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -ms-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated3 {
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -ms-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fadeInRightMy {
+    animation-name: fadeInRightMy;
+    -webkit-animation-name: fadeInRightMy;
+}
+
+#vacancies .other-text {
+    font-size:14px;
+    margin-bottom:20px;
+    line-height:1.5;
+}
+
+.other-text span {
+    font-weight:bold;
+}
+
+#vacancies table td {
+    vertical-align: middle;
+    padding-bottom:15px;
+}
+
+#vacancies table td a, .our_work-pages a, #special_offers a {
+    color:#5488df;
+}
+
+.contacts_headers {
+    font-weight:bold;
+    font-size:14px;
+}
+
+.address, .phones_for_orders {
+    float:left;
+    width:45%;
+    margin-left:25px;
+}
+
+.work_hours, .contacts_emails {
+    float:right;
+    width:45%;
+}
+
+.address span, .work_hours span, .phones_for_orders span, .contacts_emails span {    
+    font-size:12px;
+    font-weight:bold;
+}
+
+.contact_attention-wrap {
+    margin: 50px 0;
+    position:relative;
+}
+
+.blue_arrow {
+    position:absolute;
+    right:0;
+    top:0;
+    right: 167px;
+    top: -130px; 
+}
+
+.attention {
+    text-align: center;
+    color:#c51d37;
+    font-weight:bold;
+    font-size:17px;
+}
+
+.contact_attention-text {
+//    text-indent: 50px;
+    margin-top:10px;
+    font-size:14px;
+    line-height:1.5;
+    overflow:hidden;
+}
+
+.contact_attention-text span {
+    font-weight: bold;
+}
+
+.cash-carry span {
+    font-weight:bold;
+}
+
+.cash-carry {
+    margin-top:15px;
+    font-size:14px;
+    color: #000;
+    font-family: "Roboto",sans-serif;
+}
+
+.cash-carry img {
+    float: left;
+    margin-right: 10px;
+}
+
+.our_work-pages {
+    font-weight:bold;
+    margin-bottom:25px;
+}
+
+.pricelist-menu {
+    position:relative;
+}
+
+.pricelist-menu img {
+    position:absolute;
+    right: -10px;
+    top: -10px;
+}
+
+.red_string {
+    text-indent: 50px;
+}
+
+.pay_and_delivery {
+    border-bottom: 1px solid #d6d6d6;
+    color: #3a3a3a;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding-bottom: 8px;
+}
+
+.left-block a {
+    background: rgba(0, 0, 0, 0) url("/bitrix/templates/main/images/podrobnee.png") no-repeat scroll right center;
+    color: #00999d;
+    display: block;
+    font-size: 13px;
+    height: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.left-block {
+    border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 22px;
+    padding-bottom: 2px;
+    padding-top: 5px;
+}
+
+.left-block a:hover {
+    font-size:13px;
+    color:#3a9fa2;
+    background: url("/bitrix/templates/main/images/podrobneeaktiv.png") no-repeat 0 0;
+    background-position: right;
+    height:20px;
+}
+
+.left-block p {
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+
+@-webkit-keyframes fadeInRightMy {
+    from {opacity: 0; transform: translateX(20px);}
+    to {opacity: 1; transform: translateX(0px);}
+}
+
+@-moz-keyframes fadeInRightMy {
+    from {opacity: 0; transform: translateX(20px);}
+    to {opacity: 1; transform: translateX(0px);}
+}
+
+@-o-keyframes fadeInRightMy {
+    from {opacity: 0; transform: translateX(20px);}
+    to {opacity: 1; transform: translateX(0px);}
+}
+
+@-webkit-keyframes fadeInRightFast {
+    from {transform: translateX(350px);}
+    to { transform: translateX(0px);}
+}
+
+@-moz-keyframes fadeInRightFast {
+    from {transform: translateX(350px);}
+    to {transform: translateX(0px);}
+}
+
+@-o-keyframes fadeInRightFast {
+    from {transform: translateX(350px);}
+    to {transform: translateX(0px);}
+}
+
+#conditions h2 {
+    margin-top:20px;
+}
+
+.purchase_options {
+    text-decoration:underline;
+}
+
+.conditions-text {
+    margin-top:25px;
+    margin-left:25px;
+}
+
+.conditions-text span {
+    font-weight:bold;
+}
+
+.dogovor_rules, .conditions_delivery {
+    margin-top:25px !important;
+}
+
+.conditions-text table td, .decor_site table td{
+    font-size: 13px;
+    padding: 5px 0;
+    vertical-align: middle;
+}
+
+.hidden{
+    opacity:0;
+}
+
+.visible{
+    opacity:1;
+}
+
+#about_company  p span{
+    font-weight:bold;
+}
+
+#about_company p, #special_offers p {
+    line-height:1.5;
+}
+
+#about_company h2, .operatos-photo, .our_partners_letters-block {
+    margin-top:25px;
+}
+
+.advantages {
+    margin-left: 50px;
+}
+
+.advantages li {
+    padding-top: 25px;
+    opacity:0;
+}
+
+.advantages-wrap {
+/*     margin: 25px; 
+    height:247px; 
+    width:700px; 
+    background-image: url('/bitrix/templates/main/images/list.png'); 
+    background-repeat:no-repeat; */
+    
+    background-color: #ddd;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin: 25px 0px;
+}
+
+/* .advantages-wrap ul li:last-child, */ .advantages-wrap {
+    padding-bottom:25px;
+}
+
+.special_offers-catalog {
+    text-align: center;
+    margin-top:25px;
+}
+
+.special_offers-catalog  img{
+    margin:20px auto;    
+}
+
+.special_offers-catalog p span {
+    color:#5488df;
+}
+
+.operatos-photo a, .letters-photo a {
+    float:left; 
+    margin-right:15px;
+}
+
+.our_operators-block, .our_partners_letters-block{
+    text-align: center;
+}
+
+.request_popup, .complaints_popup {
+    width:400px;
+    height:160px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    margin-left:-200px;
+    margin-top:-80px;
+    padding:5px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px; 
+    -webkit-box-shadow: 0px 0px 10px #222;
+    -moz-box-shadow: 0px 0px 10px #222;
+    box-shadow: 0px 0px 10px #222;
+    /* opacity:0.5;
+    background-color: #000; */
+    background-color: rgba(000, 000, 000, 0.7);
+    /* background-image: url('img/bg_opacity.png'); */
+    display:none;
+    z-index:9999999;
+}
+
+.popup-title {
+    text-align:center;
+    font-weight: bold;
+}
+
+.popup-text {
+    overflow:hidden;
+    margin-top:45px;
+}
+
+.popup-title, .popup-text {
+    color: #fff;    
+    z-index:9999999;
+    background-color: rgba(000, 000, 000, 0.0);    
+}
+
+.popup-img {
+    float:left;
+    z-index:9999999;  
+    margin-right:25px;
+}
+
+.popup-img img {
+    width:110px;
+    height:110px;
+}
+
+/* .attention-block {
+    margin-left: 25px;
+    margin-top: 25px;
+} */
+
+.attention-block img {
+    float:left;
+    margin-right: 15px;
+}
+
+.logo_for_text {
+    position:absolute;
+    top:75px;
+}
+
+.diff_statistics {
+    position: absolute;
+    bottom:20px;
+    left:0;
+}
+
+#page_wrap {
+    margin: 0 auto;
+    max-width: 882px;
+    overflow: visible;
+    position:relative;
+}
+
+#vremya-raboti {
+    color: #0f3a51;
+    font-family: Tahoma;
+    font-size: 14px;
+    line-height: 1.5;
+    position: absolute;
+}
+
+.conditions_delivery-text span{
+    font-weight:bold;
+}
+
+.conditions_delivery-text img {
+    float:left;
+}
+
+.conditions_delivery-text img {
+    margin-right:25px;
+}
+
+.conditions_delivery-text div {
+    overflow:hidden;
+}
+
+.conditions_delivery-text div p {
+    margin-bottom:5px;
+}
+
+@media screen and (max-width: 319px) {
+
+    .right_part h1 {
+        margin-top: 0;
+        font-size:22px;
+    }
+    
+    #foto24 {
+        display:none;
+    }
+
+    .best_flowers_for_you, .advantages-black_baccara {
+       display:none;
+    }
+    
+    .best_flowers-open_text, .advantages-open_text {
+        display: block;
+    }
+    
+    .claim_mobile {
+        display: block;
+        background: #f2f2f2 none repeat scroll 0 0;
+        color: #3a9fa2;
+        //display: inline-block;
+        font-size: 13px;
+        padding: 10px 25px 10px 45px;
+        position: relative;
+        text-decoration: none;
+        vertical-align: middle;
+        width: 200px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        border-radius: 7px;
+    }
+    
+    .best_flowers-open_text, .advantages-open_text {
+        display: block;
+        background: #f2f2f2 none repeat scroll 0 0;
+        color: #3a9fa2;
+        //display: inline-block;
+        font-size: 13px;
+        padding: 10px 25px 10px 45px;
+        position: relative;
+        text-decoration: none;
+        vertical-align: middle;
+        width: 200px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        border-radius: 7px;
+    }
+
+    .left_arrow, .right_arrow/* , .bx-default-pager */ {
+        display:none;
+    }
+
+    .conditions_delivery-text img {
+        margin-top:100px;
+    }
+
+    .contacts_emails-p {
+        margin-top:32px;
+    }
+    
+    .work_hours-p {
+        margin-top:6px;
+    }
+
+    .attention {
+        margin-left: 35px;
+    }
+    
+    .attention-block img {
+        margin-top:78px;
+    }
+    
+    .container {
+        max-width:275px;
+    }
+    
+    div.managers-photo {
+        width:135px;
+        margin:0 auto;
+    }
+    
+    .operatos-photo, .letters-photo {
+        width: 145px;
+        margin: 25px auto 0;
+    }
+    
+    .new_letters-photo {
+        margin: 25px auto 0 !important;
+        width: 200px !important;
+    }
+    
+    #logo {
+        left: -4px;
+        margin: 0 auto;
+        position: relative;
+        width: 188px;
+    }
+    
+/*     .bxslider-wrap {
+        display:none;
+    } */
+    
+    .left_part {
+        display:none;
+    }
+    
+    .head-text p span {
+        width:50px;
+    }
+    
+    .head-text {
+        font-family: "Etelkareg Regular";       
+        position: absolute;
+        top: 175px;
+    }
+    
+    #header_feedback {
+        position: absolute;
+        right: 52px;
+        top: 255px;
+    }
+    
+    #vremya-raboti {
+        right: 49px;
+        top: 279px;
+        text-align:center;
+    }
+    
+    .head-text-right p a {
+        color: #0f3a51;
+        font-family: Tahoma;
+        font-size: 22px;
+        text-align: left;
+    }
+    
+    .head-text-right p a span {
+        color: #0f3a51;
+        //display: block;
+        font-size: 23px;
+        margin-top: 5px;
+    }
+    
+    .under_head_text {
+        display:none;
+    }
+    
+    .best_price {
+        display:none;
+    }
+    
+    #search {
+        display:none;
+    }
+    
+    nav {
+        background-color: none;
+    }
+    
+    #main_page h1, #main_page h2 {
+        text-indent:none;
+        font-size:22px;
+    }
+    
+    .right_part {
+        max-width: 320px;
+    }
+    
+    .scheme_passage {
+        display:block;
+    }
+    
+    .baccara-address p > span {
+        display: block;
+    }
+    
+    .baccara-address p span {
+        display: block;
+    }
+    
+    #under_nav-slider {
+        display:none;
+    }
+    
+    #over_nav-slider {
+        margin-top:160px;
+    }
+    
+    .right_part {
+        margin-left:0;
+    }
+    
+    .phones_for_orders  p {
+        width:130px;
+    }
+    
+    .nav-mobile {
+        margin-top:160px;
+    }
+}
+
+@media screen and (min-width: 320px) /* and (min-height: 440px) */ and (max-width: 479px) {
+
+    .right_part h1 {
+        margin-top: 0;
+        font-size:24px;
+    }
+
+    .best_flowers_for_you, .advantages-black_baccara {
+        display:none;
+    }
+    
+    #foto24 {
+        display:none;
+    }
+    
+    .nav-mobile {
+        margin-top:160px;
+    }
+    
+    .right_part {
+        margin-left:0;
+    }
+    
+    .phones_for_orders  p {
+        width:130px;
+    }
+    
+    .best_flowers-open_text, .advantages-open_text, .claim_mobile {
+        display: block;
+        background: #f2f2f2 none repeat scroll 0 0;
+        color: #3a9fa2;
+        //display: inline-block;
+        font-size: 13px;
+        padding: 10px 25px 10px 45px;
+        position: relative;
+        text-decoration: none;
+        vertical-align: middle;
+        width: 225px;
+         -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        border-radius: 7px;
+    }
+
+/*     ._hfixed #l {
+        background: #f5f5f5 none repeat scroll 0 0;
+        bottom: 0;
+        display: none;
+        left: 0;
+        overflow: visible;
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 17;
+    } */
+    
+    .conditions_delivery-text img {
+        margin-top:100px;
+    }
+    
+    .work_hours-p {
+        margin-top:6px;
+    }
+    
+    .contacts_emails-p {
+        margin-top:32px;
+    }    
+    
+    .attention {
+        margin-left: 35px;
+    }
+    
+    .attention-block img {
+        margin-top:78px;
+    }
+    
+    div.managers-photo {
+        width:135px;
+        margin:0 auto;
+    }
+    
+    .operatos-photo, .letters-photo {
+        width: 145px;
+        margin: 25px auto 0;
+    }
+    
+    .new_letters-photo {
+        margin: 25px auto 0 !important;
+        width: 200px !important;
+    }
+    
+    .container {
+        max-width:300px;
+    }
+    
+    #logo {
+        left: -4px;
+        margin: 0 auto;
+        position: relative;
+        width: 188px;
+    }
+    
+/*     .bxslider-wrap {
+        display:none;
+    } */
+    
+    .left_part {
+        display:none;
+    }
+    
+    .head-text p span {
+        width:50px;
+    }
+    
+    .head-text {
+        font-family: "Etelkareg Regular";       
+        position: absolute;
+        top: 175px;
+        left:-10px;
+    }
+    
+    #header_feedback {
+        position: absolute;
+        right: 67px;
+        top: 255px;
+    }
+    
+    #vremya-raboti {
+        right: 62px;
+        top: 279px;
+        text-align:center;
+    }
+    
+    .head-text-right p a {
+        color: #0f3a51;
+        font-family: Tahoma;
+        font-size: 22px;
+        text-align: left;
+    }
+    
+    .head-text-right p a span {
+        color: #0f3a51;
+        //display: block;
+        font-size: 23px;
+        margin-top: 5px;
+    }
+    
+    .under_head_text {
+        display:none;
+    }
+    
+    .best_price {
+        display:none;
+    }
+    
+    #search {
+        display:none;
+    }
+    
+    nav {
+        background-color: none;        
+    }
+    
+    #main_page h1, #main_page h2 {
+        text-indent:none;
+        font-size:22px;
+    }
+    
+    .right_part {
+        max-width: 320px;
+    }
+    
+    .scheme_passage {
+        display:block;
+    }
+    
+    .baccara-address p > span {
+        display: block;
+    }
+    
+    .baccara-address p span {
+        display: block;
+    }
+    
+    #under_nav-slider {
+        display:none;
+    }
+    
+    #over_nav-slider {
+        margin-top:160px;
+    }
+}
+
+@media screen and (min-width: 480px) /* and (min-height: 440px) */ and (max-width: 767px) {
+
+    .best_flowers_for_you, .advantages-black_baccara {
+        display:none;
+    }
+    
+    #foto24 {
+        display:none;
+    }
+    
+    .nav-mobile {
+        margin-top:160px;
+    }
+    
+    .phones_for_orders  p {
+        width:130px;
+    }
+    
+    .best_flowers-open_text, .advantages-open_text, .claim_mobile {
+        display: block;
+        padding: 15px 25px 15px 45px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        border-radius: 7px; 
+    }
+    
+    .best_flowers-open_text, .advantages-open_text, .claim_mobile {
+        display: block;
+        background-color: #f2f2f2;
+        color: #3a9fa2;
+        font-size: 17px;
+        position: relative;
+        text-decoration: none;
+        vertical-align: middle;
+        width: 315px;
+    }
+    
+    .right_part {
+        margin-left:0;
+    }
+    
+    .attention-block img {
+        margin-top:30px;
+    }
+
+    .conditions_delivery-text img {
+        margin-top:75px;
+    }
+
+    .container {
+        max-width: 394px;
+    }
+    
+    div.managers-photo {
+        width:270px;
+    }
+    
+    .operatos-photo, .letters-photo {
+        margin: 25px auto 0;
+        width: 265px;
+    }
+    
+    .new_letters-photo {
+        margin: 25px auto 0 !important;
+        width: 400px !important;
+    }
+    
+    #logo {
+        left: -4px;
+        margin: 0 auto;
+        position: relative;
+        width: 188px;
+    }
+    
+/*     .bxslider-wrap {
+        display:none;
+    } */
+    
+    .baccara-address p > span {
+        display:block;
+    }
+    
+    .left_part {
+        display:none;
+    }
+    
+    .head-text p span {
+        width:50px;
+    }
+    
+    .head-text {
+        font-family: "Etelkareg Regular";
+        left: 19px;
+        position: absolute;
+        top: 181px;
+    }
+    
+    #header_feedback {
+        position: absolute;
+        right: 107px;
+        top: 222px;
+    }
+    
+    #vremya-raboti {
+        right: 105px;
+        top: 246px;
+        text-align:center;
+    }
+    
+    .head-text-right p a {
+        color: #0f3a51;
+        font-family: Tahoma;
+        font-size: 22px;
+        text-align: left;
+    }
+    
+    .head-text-right p a span {
+        color: #0f3a51;
+        font-size: 23px;
+        margin-top: 5px;
+    }
+            
+    .under_head_text {
+        display:none;
+    }
+    
+    .best_price {
+        display:none;
+    }
+    
+    #search {
+        display:none;
+    }
+    
+    nav {
+        background-color: none;
+        
+    }
+    
+    #main_page h1, #main_page h2 {
+        text-indent:none;
+        font-size:22px;
+    }
+    
+    .right_part {
+        max-width: 480px;
+    }
+    
+    .scheme_passage {
+        display:block;
+    }
+    
+    #under_nav-slider {
+        display:none;
+    }
+    
+    #over_nav-slider {
+        margin-top:130px;
+    }
+
+}
+
+@media screen and (min-width: 768px) /* and (min-height: 440px) */ and (max-width: 881px) {
+
+    .best_flowers-open_text, .advantages-open_text, .claim_mobile {
+        display:none;
+    }
+    
+        #foto24 {
+        display:none;
+    }
+    
+    .conditions_delivery-text img {
+        margin-top:50px;
+    }
+    
+    .container {
+        max-width: 670px;
+    }
+    
+    div.managers-photo {
+        width:270px;
+    }
+    
+    .operatos-photo, .letters-photo {
+        margin: 25px auto 0;
+        width: 265px;
+    }
+    
+    .new_letters-photo {
+        margin: 25px auto 0 !important;
+        width: 400px !important;
+    }
+    
+    #logo {
+        left: -4px;
+        margin: 0 auto;
+        position: relative;
+        width: 188px;
+    }
+    
+/*     .bxslider-wrap {
+        display:none;
+    } */
+    
+    .left_part {
+        display:none;
+    }
+    
+    .head-text p span {
+        display:block;
+        width:50px;
+    }
+    
+    .head-text {
+        font-family: "Etelkareg Regular";
+        left: 65px;
+        position: absolute;
+        top: 63px;
+    }
+    
+    #header_feedback {
+        position: absolute;
+        right: 30px;
+        top: 63px;
+    }
+    
+    .head-text-right p a {
+        color: #0f3a51;
+        font-family: Tahoma;
+        font-size: 16px;
+        text-align: left;
+    }
+    
+    .head-text-right p a span {
+        color: #0f3a51;
+        //display: block;
+        font-size: 23px;
+        margin-top: 5px;
+    }
+    
+    #vremya-raboti {
+        right: 9px;
+        top: 126px;
+    }
+    
+    .under_head_text {
+        display:none;
+    }
+    
+    .best_price {
+        display:none;
+    }
+    
+    #search {
+        display:block;
+        width:135px;
+    }
+    
+    #search input[type="text"] {
+        margin-left:0px;
+        width:90px;
+    }
+    
+    #search input[type="submit"] {
+        margin-right:0px;
+    }
+    
+    nav {
+        background-color: #3c7c8b;
+    }
+    
+    #main_page h1, #main_page h2 {
+        text-indent:none;
+        font-size:24px;
+    }
+    
+    .right_part {
+        max-width: 750px;
+    }
+    
+    #over_nav-slider {
+        display:none;
+    }
+    
+}
+
+@media screen and (min-width: 882px) {
+    
+    .best_flowers-open_text, .advantages-open_text, .claim_mobile {
+        display:none;
+    }   
+    
+    .conditions_delivery-text img {
+        margin-top:50px;
+    }
+
+    .container {
+        max-width:882px;
+    }
+    
+    div.managers-photo {
+        width:270px;
+    }
+    
+    .operatos-photo, .letters-photo {
+        margin: 25px auto 0;
+        width: 265px;
+    }
+    
+    .new_letters-photo {
+        margin: 25px auto 0 !important;
+        width: 400px !important;
+    }
+    
+    .bxslider-wrap {
+        display:block;
+    }
+    
+    .left_part { 
+        display:block;
+    }
+    
+    .head-text p span {
+        display:unset;
+    }
+    
+    .head-text {
+        position: absolute;
+        top: 75px;
+        font-family: "Etelkareg Regular";
+    }
+    
+    #logo {
+        left: 15px;
+        margin: 0 auto;
+        position: relative;
+        width: 188px;
+    }
+    
+    #header_feedback {
+        position: absolute;
+        right: 10px;
+        top: 83px;
+    }
+    
+    .head-text-right p a {
+        color: #0f3a51;
+        font-family: Tahoma;
+        font-size: 22px;
+    }
+    
+    .head-text-right p a span {
+        font-family: Tahoma;
+        font-size: 36px;
+        font-weight:bold;
+    }
+    
+    #vremya-raboti {
+        right: 10px;
+        top: 116px;
+    }
+    
+    .under_head_text {
+        display:block;
+    }
+    
+    .best_price {
+        left: 25px;
+        position: absolute;
+        top: 124px;
+        display:inline-block;
+    }
+    
+    #search {
+        display:block;
+    }
+    
+    nav {
+        background-color: #3c7c8b;
+        height: 50px;
+    }
+    
+    #main_page h1, #main_page h2 {
+        text-indent:25px;
+        font-size:24px;
+    }
+    
+    .scheme_passage {
+        display:inline;
+    }
+    
+    #over_nav-slider {
+        display:none;
+    }
+
+}
