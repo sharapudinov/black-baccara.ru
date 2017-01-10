@@ -5,10 +5,15 @@ $(document).ready(function() {
     var fio =  $('.feedback_fio-inp');
     var city =  $('.feedback_city-inp');
     var req_form = $('.feedback_form');
+
+    $('.feedback_select').on('change',function () {
+        debugger;
+        $(this).prev().val($(this).val())
+    })
        
     phone_number.mask('+7(999) 999-99-99');
     
-    req_form.submit(function(){ 
+    req_form.submit(function(){
         var result = true;
         $('.error').remove();
         if(phone_number.val() == '' || phone_number.val() == null || phone_number.val() == undefined) {
