@@ -25,6 +25,7 @@
 }
 
 .feedback-inp {
+    color: darkgrey;
     border: 1px solid #d3d6d8 !important;
     border-radius: 2px !important;   
     box-sizing: border-box !important;
