@@ -33,18 +33,26 @@ if(CModule::IncludeModule("iblock")) {
             'PREVIEW_TEXT' => $data['COMMENT'],
             'PROPERTY_VALUES' => $data
         );
-        AddMessage2Log($arParametrs);
 
         $elem = new CIBlockElement;
 
-        if($elem->Add($arParametrs)) {
-            $obIblock = CIBlock::GetByID($IBLOCK_ID);
+        if($id=$elem->Add($arParametrs)) {
+            $obIblock = CIBlock::GetByID($data['IBLOCK_ID']);
             if($arIblock = $obIblock->GetNext()) {
                 $iblockName = $arIblock['NAME'];
                 $iblockId = $arIblock['ID'];
             }
+            $dbEl=CIBlockElement::GetList(
+                array(),
+                array('ID'=>$id),
+                false,
+                false,
+                array("IBLOCK_ID","ID","PROPERTY_BUSINESS","PROPERTY_EXPIRIENCE","PROPERTY_AVG_CHECK","PROPERTY_LOGISTIC","PROPERTY_STATUS"));
+            $arEl=$dbEl->GetNext();
 
-			$email_to = ($iblockId == 10) ? 'zakaz@black-baccara.ru' : 'rusalimova@black-baccara.ru';
+            AddMessage2Log($iblockId);
+
+			$email_to = ($iblockId == 10) ? 'zaprosbb@mail.ru' : 'zaprosbb@mail.ru';
 
             $arMailFields = array(
                 'REQUEST' => $iblockName,
@@ -54,10 +62,11 @@ if(CModule::IncludeModule("iblock")) {
                 'CITY'    => $data['CITY'],
                 'COMMENT' => $data['COMMENT'],
                 'EMAIL_TO' => $email_to,
-                'BUSINESS' =>$data['BUSINESS'],
-                'EXPIRIENCE' =>$data['EXPIRIENCE'],
-                'AVG_CHECK' =>$data['AVG_CHECK'],
-                'LOGISTIC' =>$data['LOGISTIC'],
+                'BUSINESS' =>$arEl['PROPERTY_BUSINESS_VALUE'],
+                'EXPIRIENCE' =>$arEl['PROPERTY_EXPIRIENCE_VALUE'],
+                'AVG_CHECK' =>$arEl['PROPERTY_AVG_CHECK_VALUE'],
+                'LOGISTIC' =>$arEl['PROPERTY_LOGISTIC_VALUE'],
+                'STATUS' =>$arEl['PROPERTY_STATUS_VALUE'],
             );
 
             if(CEvent::Send('DIFFERENT_REQUESTS', 's1', $arMailFields)) {
