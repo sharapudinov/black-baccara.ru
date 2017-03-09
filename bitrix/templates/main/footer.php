@@ -86,6 +86,6 @@ sflakeTypes = 5;
 sflakeWidth = 15; 
 sflakeHeight = 15; 
 </script> 
-<script type="text/javascript" src="http://mvcreative.ru/example/6/2/snow.js"></script>
-</body>
+<!--<script type="text/javascript" src="http://mvcreative.ru/example/6/2/snow.js"></script>
+--></body>
 </html>

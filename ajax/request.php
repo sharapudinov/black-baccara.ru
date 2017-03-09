@@ -50,9 +50,9 @@ if(CModule::IncludeModule("iblock")) {
                 array("IBLOCK_ID","ID","PROPERTY_BUSINESS","PROPERTY_EXPIRIENCE","PROPERTY_AVG_CHECK","PROPERTY_LOGISTIC","PROPERTY_STATUS"));
             $arEl=$dbEl->GetNext();
 
-            AddMessage2Log($iblockId);
 
-			$email_to = ($iblockId == 10) ? 'zaprosbb@mail.ru' : 'zaprosbb@mail.ru';
+
+			$email_to = ($iblockId == 10) ? 'zaprosbb@mail.ru,zakaz@black-baccara.ru' : 'zaprosbb@mail.ru';
 
             $arMailFields = array(
                 'REQUEST' => $iblockName,

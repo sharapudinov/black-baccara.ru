@@ -15,7 +15,7 @@ $(document).ready(function(){
 /*     $('#foto24').on('click', function() {
         $(this).hide();
     });
-    
+
     setTimeout(function() {
          $('#foto24').fadeOut('slow');
     }, 7000); */
